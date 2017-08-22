@@ -1,0 +1,28 @@
+[31mF[0m[31mF[0m[31mF[0m
+
+Failures:
+
+  1) Entry attributes responds to name
+     [31mFailure/Error: expect(entry).to respond_to(:name)[0m
+     [31m  expected #<Entry:0x007fb5ae9a7bb0> to respond to :name[0m
+     [36m# ./spec/entry_spec.rb:10:in `block (3 levels) in <top (required)>'[0m
+
+  2) Entry attributes responds to phone number
+     [31mFailure/Error: expect(entry).to respond_to(:phone_number)[0m
+     [31m  expected #<Entry:0x007fb5af9db6f8> to respond to :phone_number[0m
+     [36m# ./spec/entry_spec.rb:15:in `block (3 levels) in <top (required)>'[0m
+
+  3) Entry attributes responds to email
+     [31mFailure/Error: expect(entry).to respond_to(:email)[0m
+     [31m  expected #<Entry:0x007fb5afab2d60> to respond to :email[0m
+     [36m# ./spec/entry_spec.rb:20:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.02013 seconds (files took 0.09599 seconds to load)
+[31m3 examples, 3 failures[0m
+
+Failed examples:
+
+[31mrspec ./spec/entry_spec.rb:7[0m [36m# Entry attributes responds to name[0m
+[31mrspec ./spec/entry_spec.rb:13[0m [36m# Entry attributes responds to phone number[0m
+[31mrspec ./spec/entry_spec.rb:18[0m [36m# Entry attributes responds to email[0m
+
